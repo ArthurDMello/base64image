@@ -1,4 +1,5 @@
 import ImageList from './components/ImageList'
+import ImageUpload from './components/ImageUpload'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
        <div>
           <ImageList/>
+          <ImageUpload/>
         </div> 
     </>
   )
