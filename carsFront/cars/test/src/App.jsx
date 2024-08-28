@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-       <div>
-          <ImageList/>
+       <div className='container'>
           <ImageUpload/>
+          <ImageList/>
         </div> 
     </>
   )

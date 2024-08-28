@@ -28,11 +28,14 @@ function ImageUpload() {
     return(
         <div>
             <form onSubmit={handleSubmit}>
-                <input type="file" onChange={handleFileChange}/>
+                <label class="file-label">
+                    <input type="file" onChange={handleFileChange}/>
+                    <span class="file-button">Escolher Arquivo</span>
+                </label>
                 <button type="submit">Coloque a Imagem</button>
             </form>
         </div>
-        )
+    )
 }
 
 export default ImageUpload
